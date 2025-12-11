@@ -33,6 +33,8 @@ public class Ejemplo102 {
             // Luis o Ana
             nombre = estudiantes[i];
             if (!nombre.equals("Luis")) {
+            // la condicion esta expresando que va a presentar todos los 
+            // valores que consten en el arreglo a diferencia o diferente de luis
             
                 mensajeFinal = String.format("%sEstudiante:%s - promedio: "
                         + "%.4f\n", 
